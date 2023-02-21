@@ -107,19 +107,20 @@
 
 ## **How to install and run app**
 
-| Command                                                     | Action                                             |
-| :---------------------------------------------------------- | :------------------------------------------------- |
-| `git@gitlab.asoft-python.com:thuan.dang/react-training.git` | Clone project from gitlab                          |
-| `git checkout feature/practice-two`                         | Switch to branch feature/practice-two              |
-| `cd react-training/dashboard`                               | Move to `dashboard` folder                         |
-| `pnpm install`                                              | Installs dependencies                              |
-| `pnpm dev`                                                  | Run dev production at `http://localhost:3000`      |
-| `pnpm build`                                                | Run build for production before start production   |
-| `pnpm start`                                                | Run start on production at `http://localhost:3000` |
-| `pnpm storybook`                                            | Start storybook dev at `http://localhost:6006/`    |
-| `pnpm build-storybook`                                      | build storybook                                    |
-| `pnpm lint`                                                 | run lint-staged check code before commit           |
-| `pnpm prepare`                                              | Install folder .husky                              |
-| `pnpm test`                                                 | Testing application                                |
-| `pnpm test:coverage`                                        | Testing application and get coverage               |
-| deployment                                                  | [Dash Board]()                                     |
+| Command                                                     | Action                                               |
+| :---------------------------------------------------------- | :--------------------------------------------------- |
+| `git@gitlab.asoft-python.com:thuan.dang/react-training.git` | Clone project from gitlab                            |
+| `git checkout feature/practice-two`                         | Switch to branch feature/practice-two                |
+| `cd react-training/dashboard`                               | Move to `dashboard` folder                           |
+| `pnpm install`                                              | Installs dependencies                                |
+| `pnpm dev`                                                  | Run dev production at `http://localhost:3000`        |
+| `pnpm build`                                                | Run build for production before start production     |
+| `pnpm start`                                                | Run start on production at `http://localhost:3000`   |
+| `pnpm storybook`                                            | Start storybook dev at `http://localhost:6006/`      |
+| `pnpm build-storybook`                                      | build storybook                                      |
+| `pnpm lint`                                                 | run lint-staged check code before commit             |
+| `pnpm prepare`                                              | Install folder .husky                                |
+| `pnpm test`                                                 | Testing application                                  |
+| `pnpm test:coverage`                                        | Testing application and get coverage                 |
+| deployment                                                  | [Dash Board](https://dashboard-rosy-two.vercel.app/) |
+| Account                                                     | admin@gmail.com - Admin@123                          |

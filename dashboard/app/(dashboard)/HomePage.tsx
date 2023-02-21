@@ -34,10 +34,11 @@ const HomePage = () => {
   const { userId } = useAuthContext()
 
   useEffect(() => {
-    if (!userId || userId === '') {
+    if (!userId) {
       route.push(ROUTE.LOGIN)
     }
   })
+
   return (
     <Container
       maxWidth={false}

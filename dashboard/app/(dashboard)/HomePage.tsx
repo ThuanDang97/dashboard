@@ -24,8 +24,20 @@ import { Sales } from '@components/Chart/Sales'
 import { TrafficByDevice } from '@components/Chart/TrafficDevice'
 import { LatestProducts } from '@components/LatestProductCard'
 import { LatestOrders } from '@components/LatestOrderCard'
+import { useAuthContext } from '@hooks/useAuthContext'
+import { useRouter } from 'next/navigation'
+import { ROUTE } from '@constants/route'
+import { useEffect } from 'react'
 
 const HomePage = () => {
+  const route = useRouter()
+  const { userId } = useAuthContext()
+
+  useEffect(() => {
+    if (!userId || userId === '') {
+      route.push(ROUTE.LOGIN)
+    }
+  })
   return (
     <Container
       maxWidth={false}
